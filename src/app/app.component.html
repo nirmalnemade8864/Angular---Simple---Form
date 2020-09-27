@@ -1,0 +1,14 @@
+<h1 style="text-align: center; color: red;">Form</h1>
+<form class="demo" [formGroup]='info' (ngSubmit)="onSubmit(info.value)">
+    <input type="text" formControlName="name" size="50" placeholder="Name"><br><br>
+    <input type="text" formControlName="email" size="50" placeholder="Email"><br><br>
+    <input type="text" formControlName="contact" size="50" placeholder="Contact"><br><br>
+    <input type="text" formControlName="city" size="50" placeholder="City"><br><br>
+    <input type="text" formControlName="birthdate" size="50" placeholder="BirthDate"><br><br>
+    <input type="text" formControlName="birthweek" size="50" placeholder="BirthWeek"><br><br>
+    <input type="text" formControlName="address" size="50" placeholder="Address"><br><br>
+    <input type="text" formControlName="hobby" size="50" placeholder="Hobby"><br><br>
+    <input type="text" formControlName="education" size="50" placeholder="Education"><br><br>
+    <button type="submit">Submit</button>
+
+</form>
